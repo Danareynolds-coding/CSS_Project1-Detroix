@@ -1,0 +1,323 @@
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   }
+.smallnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#0b0631;
+    background-size: cover;
+    border:1px solid #0b0631;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    }
+.websitebox{
+    background-color:#0b0631; 
+}
+
+.website{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: 14px;
+    background-color:#0b0631;
+    color:#FFFFFF;
+    margin:5px;
+    text-decoration: none;
+    margin-left: 30px;
+}  
+.guidebox{
+    background-color:#0b0631;
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.guide{
+    
+    background-color:#0b0631;
+}
+.navitem{
+    height: fit-content;
+    margin:5px;
+    font-size: 14px;
+    font-style: Muli;
+    color:#FFFFFF;
+    background-color:#0b0631;
+    text-decoration: none;
+}
+h1{
+    text-align: left;
+    line-height: 50px;
+    font-size: 34px;
+    font-style:"Merriweather", Arial, sans-serif;
+    color: #0b0631;
+    margin-left:40px;
+}
+/* LARGE NAV SECTION */
+.lrgnav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 30px;
+    width:95%;
+    background-color: #FFFFFF;
+    }
+.detroix{
+    margin-right:200px;
+}
+.libox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: right;
+    list-style: none;
+    background-color:#FFFFFF; 
+    margin-top: 30px;
+}
+.libox .li a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: right;
+    margin:2px;
+    text-align: center;
+    height: fit-content;
+    font-size: 14px;
+    font-style: Muli;
+    color:#FFFFFF;
+    border:2px solid #0b0631; 
+    border-radius: 4px;
+    background-color:#0b0631;
+}
+/* PICTURE SECTION */
+.heropage{
+    width:90%;
+    height: 1000px;
+    border:1px solid #0b0631;
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-left: 30px;
+    margin-bottom:0;
+    background-image:url(../image/heroimage.png);
+    background-size: cover;
+}
+/* BULLET SECTION */
+.bulletbox{
+    margin:0;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    justify-content: center;
+    
+}
+.bullets{
+    list-style: none;
+    font-size:200px;
+    color:#808080;
+     }
+     /* MIDDLE SECTION MIDDLE SECTION */
+.sections{
+    
+    min-width:200px;
+    max-width:100%;
+    font-size:11px;
+    color:#212121;
+    text-align: justify;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;   
+}
+h3{
+    color:#0b0631;
+    text-align:center;
+    font-family:"Muli" ;
+    font-size: 50px;
+    margin:20px;
+}
+.morebutton{
+    
+    bottom: 10px;
+    padding:5px;
+    color:#FFFFFF;
+    background-color:#0b0631;
+    font-size: 30px;
+}
+
+.sections p{
+    margin:30px;
+    color: #FFFFFF; 
+    align-items: center;
+}
+.img{
+    margin-left: 100px;
+}
+.itemsmart{
+    border-right:2px solid #808080;
+    border-top:2px solid #808080;
+    padding:20px;
+    }
+.itemstrong{
+    border-top:2px solid#808080;
+    padding:20px;
+}
+.itemstable{
+    border-left:2px solid #808080;
+    border-top:2px solid #808080;
+        padding:20px;
+}
+/* BOTTOM SECTION BOTTOM SECTION */
+.infobox{
+    background-color: #0b0631;
+    color:#FFFFFF;
+    min-width:200px;
+    max-width:100%;
+    height: 500px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    justify-items: center;
+}
+.datebutton{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.class21{
+    border: px30 solid #Be8542;
+    border-radius:6px;
+    background-color:#Be8542;
+    font-size: 20px;
+}
+.class9{
+    border: 20px solid #bC6142;
+    border-radius:6px;
+    background-color:#bC6142 ;
+    font-size: 20px;
+}
+.class17{
+    border: 20px solid #bd4252;
+    border-radius:6px;
+    background-color:#bd4252 ;
+
+}
+h4{    
+    font-size:40px;
+    color:#FFFFFF;
+    font-style:"Muli",Arial, san-serif;
+}
+h6{
+    font-size: 20px;
+    color:#FFFFFF;
+}
+.bottom{
+    position:absolute;
+    bottom:10px;
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color:#213349;
+    padding:5px;
+
+}
+.gear{
+    list-style-image:url(../image/gearbullet.jpg);
+    color:#808080;
+   }
+.services{
+    position:relative;
+      
+    background-color: #0b0631;
+    color:#808080
+}
+.opportunities{
+    position:relative;
+    background-color: #0b0631;
+
+}
+.li-opportunities{
+    font-size:20px;
+    color: #FFFFFF;
+}
+.p-opportunities{
+    font: size 11px;
+    color:#808080 ;
+}
+.news-container{
+    position:relative;
+    background-color: #0b0631;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.datebutton{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.c21{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #Be8542;
+    border-radius:6px;
+    background-color:#Be8542;
+    font-size: 30px;
+    font-weight:700;
+    margin-bottom:5px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.c9{
+    height: 80px;
+    width: 80px;
+    border: 1px solid #bC6142;
+    border-radius:6px;
+    background-color:#bC6142 ;
+    font-size: 30px;
+    font-weight:700;
+    margin:5px;
+}
+.c17{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #bd4252;
+    border-radius:6px;
+    background-color:#bd4252 ;
+    font-size: 30px;
+    font-weight:700;
+    margin:5px;
+}
+.newstext{
+
+    display:flex;
+    flex-direction: column;
+    justify:space-between;
+} 
+.news1{
+    margin:40px;
+}
+.news2{
+    margin:40px;
+}
+.news3{
+    margin: 40px;
+}
+.p-news{
+    margin: 10px;px;
+    color:#808080;
+}
+
+/* FOOTER FOOTER */
+.footer{
+    width:100%;
+    height: 100px;
+    background-color: #0e1e31;
+ }   
+h5{
+    margin-top: 10px;
+   color:#FFFFFF ;
+   font-size: 11px;
+} 
